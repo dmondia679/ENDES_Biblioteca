@@ -5,10 +5,9 @@ import java.util.List;
 /**
  * Representa a un autor de libros en un sistema de gestión de biblioteca.
  */
-public abstract class Autor {
+public class Autor {
     private String name;
     private String biography;
-    private List<Libro> libros;
 
     /**
      * Constructor de la clase Autor.
