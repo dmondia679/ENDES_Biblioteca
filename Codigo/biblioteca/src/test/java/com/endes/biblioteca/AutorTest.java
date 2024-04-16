@@ -17,8 +17,8 @@ public class AutorTest {
     void setUp() {
         autor = new Autor("Nombre Autor","Biografía Autor");
         libros = new ArrayList<>();
-        libros.add(new EjemplarLibro("Título 1"));
-        libros.add(new EjemplarLibro("Título 2"));
+        libros.add(new EjemplarLibro("Título 1","Etiqueta 1"));
+        libros.add(new EjemplarLibro("Título 2","Etiqueta 2"));
         
     }
 
