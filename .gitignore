@@ -1,0 +1,10 @@
+# class file
+*.class
+
+# package files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
