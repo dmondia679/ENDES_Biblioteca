@@ -15,7 +15,7 @@ public class AutorTest {
 
     @BeforeEach
     void setUp() {
-        autor = new Autor("Nombre Autor","Biografía Autor");
+        autor = new Autor("Nombre 1","Biografia 1");
         libros = new ArrayList<>();
         libros.add(new EjemplarLibro("Título 1","Etiqueta 1"));
         libros.add(new EjemplarLibro("Título 2","Etiqueta 2"));
@@ -25,13 +25,13 @@ public class AutorTest {
     @Test
     @DisplayName("Obtener nombre del autor")
     public void testGetNombre() {
-    	assertEquals("Manoolo",autor.getName());
+    	assertEquals("Nombre 1",autor.getName());
     }
     
     @Test
     @DisplayName("Obtener biografía del autor")
     public void testGetBiografia() {
-    	assertEquals("Escritor",autor.getBiography());
+    	assertEquals("Biografia 1",autor.getBiography());
     }
 
 
